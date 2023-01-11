@@ -20,7 +20,13 @@ img {
   display: block;
 }
 
+[src$=".jpg"] {
+  border-radius: 4px;
+}
+
 h1,
+h2,
+h3,
 ul,
 p {
   margin: 0px;

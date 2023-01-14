@@ -14,10 +14,13 @@
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   color: var(--cor-p5);
-  font-size: 1.12rem;
-  line-height: 1.33;
-  font-family: "Poppins";
-  font-weight: 600;
+  font: 600 1.12rem/1.33 "Poppins", sans-serif;
+  max-width: max-content;
+}
+
+.botao.secundario {
+  background: var(--cor-10);
+  color: var(--cor-2);
 }
 
 .link {
@@ -37,6 +40,10 @@
 
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
+}
+
+.botao.secundario:hover {
+  background-color: var(--cor-9);
 }
 
 @media (max-width: 600px) {

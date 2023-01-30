@@ -167,6 +167,7 @@
   }
   .orcamento-produto {
     border-radius: 5px 5px 0 0;
+    background: var(--cor-12);
   }
 }
 
